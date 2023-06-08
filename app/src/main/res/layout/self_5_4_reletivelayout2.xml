@@ -21,6 +21,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="입력"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/btn2"
+        android:layout_below="@id/Base2"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:layout_marginRight="6dp"
         android:layout_below="@id/Base2"
         android:layout_alignParentRight="true"/>
 </RelativeLayout>
